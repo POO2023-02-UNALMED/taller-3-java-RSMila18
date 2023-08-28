@@ -60,14 +60,14 @@ public class TV {
 	}
 	
 	public void turnOn(){
-		if (this.estado = false) {
-			this.estado = true;
+		if (estado = false) {
+			estado = true;
 		}
 	}
 	
 	public void turnOff(){
-		if (this.estado = true) {
-			this.estado = false;
+		if (estado = true) {
+			estado = false;
 		}
 	}
 	
