@@ -63,14 +63,14 @@ public class TV {
 	}
 
 	public void turnOn() {
-		if (this.estado = false) {
-			this.estado = true;
+		if (estado = false) {
+			estado = true;
 		}
 	}
 
 	public void turnOff() {
-		if (this.estado = true) {
-			this.estado = false;	
+		if (estado = true) {
+			estado = false;	
 		}
 	}	
 
@@ -83,26 +83,26 @@ public class TV {
 	}
 
 	public void canalUp() {
-		if(this.canal < 120 && this.estado == true) {
-			this.canal ++;
+		if(canal < 120 && estado == true) {
+			canal ++;
 		}
 	}
 
 	public void canalDown() {
-		if(this.canal > 1 && this.estado==true) {
-			this.canal --;
+		if(canal > 1 && estado==true) {
+			canal --;
 		}
 	}
 
 	public void volumenUp() {
-		if(this.volumen < 7 && this.estado == true) {
-			this.volumen ++;
+		if(volumen < 7 && estado == true) {
+			volumen ++;
 		}
 	}
 
 	public void volumenDown() {
-		if(this.volumen > 0 && this.estado==true) {
-			this.volumen --;
+		if(volumen > 0 && estado==true) {
+			volumen --;
 		}
 	}
 
