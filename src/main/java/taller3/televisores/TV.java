@@ -106,4 +106,8 @@ public class TV {
 	static int getNumTV() {
 		return numTV;
 	}
+	
+	static void setNumTV(int number) {
+		numTV = number;
+	}
 }
