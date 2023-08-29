@@ -31,6 +31,14 @@ public class Control {
 		this.tv.canalDown();
 	}
 	
+	public void turnOff() {
+		this.tv.turnOff();
+	}
+	
+	public void turnOn() {
+		this.tv.turnOn();
+	}
+	
 	public void volumenUp() {
 		this.tv.volumenUp();
 	}
