@@ -60,14 +60,14 @@ public class TV {
 	}
 	
 	public void turnOn(){
-		if (estado = false) {
-			estado = true;
+		if (this.estado = false) {
+			this.estado = true;
 		}
 	}
 	
 	public void turnOff(){
-		if (estado = true) {
-			estado = false;
+		if (this.estado = true) {
+			this.estado = false;
 		}
 	}
 	
@@ -101,5 +101,9 @@ public class TV {
 		if(this.volumen > 0 && this.volumen <= 120 && this.estado == true) {
 			this.volumen --;
 		}
+	}
+	
+	static int getNumTV() {
+		return numTV;
 	}
 }
